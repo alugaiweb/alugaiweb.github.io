@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/responsive.css">
+    <link rel="shortcut icon" href="assets/icons/alugaiIcone1.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8956f5860c.js" crossorigin="anonymous"></script>
+    <title>Alugaí</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="menu-burguer">
+                <button onclick="showMenuMobile()"><img src="assets/icons/bars-solid.svg" alt=""></button>
+            </div>
+            <div class="logo">
+                <a href="index.htm">
+                    <img class="logo-icon" src="assets/icons/alugaiIcone1.svg" alt="">
+                    <img class="logo-text" src="assets/images/alugai500x200.svg" alt="">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">Alugar</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Descobrir</a></li>
+                <li class="nav-item"><a href="#contact-us" class="nav-link">Fale Conosco</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Ajuda</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+            </ul>
+            <div class="btns-header">
+                <a href="login.html"><button class="header-login-btn">Login</button></a>
+                <a href="register.html"><button class="header-register-btn">Cadastre-se</button></a>
+            </div>
+            <div class="menu-mobile">
+                <div class="menu-mobile-box">
+                    <div class="header-menu-mobile">
+                        <a href="index.htm">
+                            <img class="logo-menu-mobile" src="assets/icons/alugaiIcone1.svg" alt="">
+                            <img class="logo-text-mobile" src="assets/images/alugai500x200.svg" alt="">
+                        </a>
+                        <button onclick="closedMenuMobile()"><img src="assets/icons/xmark-solid.svg" alt=""></button>
+                    </div>
+                    <ul class="nav-list-mobile">
+                        <li class="nav-item-mobile"><a href="" class="nav-link-mobile"><span><i class="fa-solid fa-house"></i></span> Alugar</a></li>
+                        <li class="nav-item-mobile"><a href="" class="nav-link-mobile"><span><i class="fa-regular fa-compass"></i></span> Descobrir</a></li>
+                        <li class="nav-item-mobile"><a href="#contact-us" class="nav-link-mobile"><span><i class="fa-solid fa-phone"></i></span> Fale Conosco</a></li>
+                        <li class="nav-item-mobile"><a href="" class="nav-link-mobile"><span><i class="fa-regular fa-comments"></i></span> Ajuda</a></li>
+                        <li class="nav-item-mobile"><a href="index.htm/#about" class="nav-link-mobile"><span><i class="fa-solid fa-circle-info"></i></span> Sobre</a></li>
+                    </ul>
+                    <div class="btns-header-mobile">
+                        <a href="login.html"><button class="mobile-login-btn">Login</button></a>
+                        <a href="register.html"><button class="mobile-register-btn">Cadastre-se</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="login">
+        <div class="login-box">
+            <div class="login-logo">
+                <a href="index.htm">
+                    <img class="login-logo-icon" src="assets/icons/alugaiIcone1.svg" alt="logo-icon">
+                    <h2>Entrar</h2>
+                </a>
+            </div>
+            <form>
+                <label class="input-label">Email</label>
+                <input type="email" placeholder="Digite seu email...">
+                <label class="input-label">Senha</label>
+                <input type="password" placeholder="Digite seu a senha...">
+                <a href="register.html">Ainda não tenho conta</a>
+                <a class="submit-login" href="logado.html"><button>ENTRAR</button></a>
+                <label>Ou</label>
+                <button><span><i class="fa-solid fa-chevron-down"></i></span> Entrar com Google <img src="assets/icons/google_g_icon.svg" alt=""> </button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
